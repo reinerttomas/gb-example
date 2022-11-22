@@ -1,0 +1,22 @@
+{
+    "name": "reinerttomas/gb-example",
+    "autoload": {
+        "psr-4": {
+            "ReinertTomas\\GbExample\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Tomas Reinert",
+            "email": "reinerttomas@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=8.0",
+        "ext-fileinfo": "*",
+        "davmixcool/php-sentiment-analyzer": "^1.2"
+    },
+    "require-dev": {
+        "tracy/tracy": "^2.9"
+    }
+}
